@@ -555,10 +555,21 @@
 					
 					ul.icons li a.fa-github:hover:before {
 						text-shadow: 1.25px 0px 0px #333333, -1.25px 0px 0px #333333, 0px 1.25px 0px #333333, 0px -1.25px 0px #333333;
+						color:#333;
+						background-color:white;
 					}
 					
 					ul.icons li a.fa-facebook:hover:before {
 						text-shadow: 1.25px 0px 0px #3b5998, -1.25px 0px 0px #3b5998, 0px 1.25px 0px #3b5998, 0px -1.25px 0px #3b5998;
+						color:#3b5998;
+						background-color:white;
+						
+					}
+					
+					ul.icons li a.fa-soundcloud:hover:before {
+						text-shadow: 1.25px 0px 0px #f50, -1.25px 0px 0px #f50, 0px 1.25px 0px #f50, 0px -1.25px 0px #f50;
+						color:#f50;
+						background-color:white;				
 					}
 
 					ul.icons li a:before {
@@ -577,21 +588,39 @@
 					ul.icons li a:hover {
 						border-color: red;
 					}
+
 					
-					ul.icons li a.fa-steam:hover {
-						border-color: #650777;
+					ul.icons li a.fa-github {
+						border-color: #333;
+						background-color:#333;
 					}
 					
 					ul.icons li a.fa-github:hover {
-						border-color: #333333;
+						border-color: #333;
+
 					}
 					
-					ul.icons li a.fa-skype:hover {
-						border-color: #00AFF0;
+					
+					
+					
+					ul.icons li a.fa-soundcloud {
+						border-color: #f50;
+						background-color:#f50;
 					}
 					
-					ul.icons li a.fa-facebook:hover {
-						border-color: #3b5998;
+					ul.icons li a.fa-soundcloud:hover {
+						border-color: #f50;
+					}
+					
+					ul.icons li a.fa-facebook{						
+						border-color:#3b5998;
+						background-color:#3b5998;
+						
+					}
+					
+					ul.icons li a.fa-facebook:hover {						
+						border-color:#3b5998;
+						
 					}
 
 			@media screen and (max-width: 480px) {

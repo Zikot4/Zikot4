@@ -549,9 +549,6 @@
 						text-shadow: 1.25px 0px 0px #333333, -1.25px 0px 0px #333333, 0px 1.25px 0px #333333, 0px -1.25px 0px #333333;
 					}
 					
-					ul.icons li a.fa-steam:hover:before {
-						text-shadow: 1.25px 0px 0px #650777, -1.25px 0px 0px #650777, 0px 1.25px 0px #650777, 0px -1.25px 0px #650777;
-					}
 					
 					ul.icons li a.fa-github:hover:before {
 						text-shadow: 1.25px 0px 0px #333333, -1.25px 0px 0px #333333, 0px 1.25px 0px #333333, 0px -1.25px 0px #333333;
@@ -571,6 +568,13 @@
 						color:#f50;
 						background-color:white;				
 					}
+					
+					ul.icons li a.fa-instagram:hover{
+						border-color: black;					
+						background:  white;			
+
+					}
+					
 
 					ul.icons li a:before {
 						position: absolute;
@@ -600,17 +604,16 @@
 
 					}
 					
-					
-					
+					ul.icons li a.fa-instagram{
+						border-color: white;	
+						background:  linear-gradient(40deg, #ffbe00 , #5b00d3 );					
+					}
 					
 					ul.icons li a.fa-soundcloud {
 						border-color: #f50;
 						background-color:#f50;
 					}
 					
-					ul.icons li a.fa-soundcloud:hover {
-						border-color: #f50;
-					}
 					
 					ul.icons li a.fa-facebook{						
 						border-color:#3b5998;
